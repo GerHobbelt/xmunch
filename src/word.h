@@ -27,7 +27,8 @@
 
 namespace xmunch {
 
-	struct AffixedWord {
+	class AffixedWord {
+	public:
 		Word& word;
 		const Affix& affix;
 
